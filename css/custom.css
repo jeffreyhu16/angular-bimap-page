@@ -90,10 +90,10 @@
     padding-top: 9em;
 }
 
-.custom-info {
+.iq-portfolio .custom-info {
     padding: 0 6em;
-    top: 14em;
-    left: 0;
+    top: 40%;
+    left: 3%;
 }
 
 #custom-padding {
@@ -150,5 +150,15 @@ footer .footer-topbar {
 @media (max-width: 992px) {
     .cover-img-container {
         margin-bottom: 2em;
+    }
+
+    .iq-portfolio .custom-info {
+        top: 25%;
+    }
+}
+
+@media (max-width: 767px) {
+    .iq-portfolio .custom-info {
+        top: 40%;
     }
 }
