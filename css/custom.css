@@ -1,0 +1,150 @@
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-container {
+    padding: 0 4em;
+}
+
+.cover-img {
+    position: absolute;
+    top: 70px;
+    bottom: 0;
+    margin: auto 0;
+}
+
+.iq-banner .iq-banner-video {
+    top: 0;
+}
+
+.iq-banner .banner-objects .banner-objects-01 {
+    height: 100%;
+    background-color: #fff;
+}
+
+.iq-title-box .iq-line {
+    width: 110px;
+    top: 34px;
+    margin-left: 4px;
+}
+
+.iq-title-box {
+    position: relative;
+}
+
+.img-golang {
+    margin-bottom: 26px !important;
+    width: 100px;
+}
+
+.img-swagger {
+    margin-bottom: 26px !important;
+    padding: 16px 0 0 16px;
+    width: 86px;
+}
+
+.img-influxdb {
+    margin-bottom: 26px !important;
+    padding: 18px 0 0 18px;
+    width: 86px;
+}
+
+.img-redisdb {
+    margin-bottom: 28px !important;
+    padding: 24px 0 0 18px;
+    width: 86px;
+}
+
+.iq-title-box .iq-line.two {
+    width: 200px;
+    left: 0px;
+    margin: 0;
+}
+
+.iq-portfolio .iq-portfolio-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 0.4em;
+}
+
+.img-elastic-search {
+    padding: 6.5em;
+}
+
+.img-logstash {
+    padding: 4em;
+}
+
+.img-kibana {
+    padding: 8em;
+}
+
+.img-docker {
+    padding: 7em;
+    padding-top: 9em;
+}
+
+.custom-info {
+    padding: 0 6em;
+    top: 14em;
+    left: 0;
+}
+
+#custom-padding {
+    padding-bottom: 1.4em;
+}
+
+.iq-title-box .iq-line.three {
+    left: 0;
+    width: 185px;
+}
+
+.iq-title-box .iq-line.four {
+    left: 0;
+    width: 180px;
+}
+
+.testimonial-info {
+    margin-bottom: 1em;
+}
+
+.iq-testimonial a:last-child {
+    font-weight: 600;
+    color: #000;
+}
+
+.owl-carousel .iq-testimonial {
+    padding: 30px;
+}
+
+.owl-carousel .iq-testimonial p {
+    margin-bottom: 0;
+}
+
+footer {
+    padding-top: 0;
+}
+
+footer .footer-topbar {
+    margin-bottom: 32px;
+}
+
+.subscribe-title {
+    text-align: end;
+}
+
+.copyright-row {
+    justify-content: center;
+}
+
+.copyright {
+    margin-bottom: 2em;
+}
+
+@media (max-width: 992px) {
+    .cover-img-container {
+        margin-bottom: 2em;
+    }
+}

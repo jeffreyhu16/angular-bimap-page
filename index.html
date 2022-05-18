@@ -1,0 +1,940 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script>document.getElementsByTagName("html")[0].className += " js";</script>
+    <title>Phifi - Creative Agency HTML Template</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Typography CSS -->
+    <link rel="stylesheet" href="css/typography.css">
+    <!-- Style CSS -->
+    <link rel='stylesheet' href='css/phifi-style.css' />
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body>
+    <!-- loading -->
+    <div id="loading">
+        <div id="loading-center">
+            <div class="load-img">
+                <img src="images/loader.gif" alt="loader">
+            </div>
+        </div>
+    </div>
+    <!-- loading End -->
+    <!-- Header -->
+    <header id="main-header">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>
+            $(function () {
+                $('a[href*=#]:not([href=#])').click(function () {
+                    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                        var target = $(this.hash);
+                        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                        if (target.length) {
+                            $('html,body').animate({
+                                scrollTop: target.offset().top
+                            }, 1000);
+                            return false;
+                        }
+                    }
+                });
+            });
+        </script>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <a class="navbar-brand" href="index.html">
+                            <img class="img-fluid" src="images/logo.png" alt="img">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="menu-btn d-inline-block" id="menu-btn">
+                                <span class="line"></span>
+                                <span class="line"></span>
+                                <span class="line"></span>
+                            </span>
+                            <span class="ion-navicon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto w-100 justify-content-end">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link active dropdown-toggle" href="#iq-home" id="navbarDropdown"
+                                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Home
+                                    </a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#section-1" id="navbarDropdown-2"
+                                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        使用技術
+                                    </a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#section-2" id="navbarDropdown-3"
+                                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        主力產品
+                                    </a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#section-3" id="navbarDropdown-4"
+                                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        開發團隊
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link dropdown-toggle" href="#section-4" role="button">
+                                        近期活動
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Banner -->
+    <div id="iq-home" class="iq-banner">
+        <div class="banner-objects">
+            <span class="banner-objects-02">
+                <img src="images/banner/banner-pattern-1.png" alt="#">
+            </span>
+        </div>
+        <div class="container">
+            <div class="banner-text">
+                <div class="row">
+                    <div class="col-md-12 col-lg-6 banner-container">
+                        <h1 class="text-uppercase wow fadeIn">ITOps</h1>
+                        <p class="iq-pt-15 iq-mb-40 wow fadeIn">
+                            是一套使用Golang實現資料庫與API串接，符合現代雲端大數據需求的微服務，使用者可自由選擇連接各式資料庫，進行客製化維運功能與資料視覺化</p>
+                        <div class="btn-container text-left">
+                            <a class="iq-button d-inline-block wow fadeIn mb-5 mb-lg-0" href="about-us.html"><span>Click
+                                    Here</span><em></em></a>
+                            <h4 class="iq-text wow fadeIn">ITOps</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-6 cover-img-container">
+                        <div class="iq-banner-video">
+                            <span class="banner-responsive">
+                                <img src="images/cover-img.jpg" alt="drive02">
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="banner-objects">
+            <div class="banner-objects-01">
+                <img class="cover-img" src="images/cover-img.jpg" alt="drive02">
+            </div>
+        </div>
+
+    </div>
+    <!-- Banner End -->
+    <!-- Main Content Start -->
+    <div class="main-content">
+        <!-- Service Start -->
+        <div id="section-1" class="position-relative overview-block-pt iq-pb-70 iq-investor">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-md-6 wow fadeIn">
+                        <div class="text-left iq-title-box">
+                            <h2 class="iq-title text-uppercase pr-lg-5">技術</h2>
+                            <p class="iq-line one"></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-6 wow fadeIn">
+                        <div class="btn-container">
+                            <a class="iq-button d-inline-block" href="services.html"><span>Click
+                                    Here</span><em></em></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-center position-relative">
+                    <div class="col-lg-3 col-md-6 wow fadeIn">
+                        <div class="iq-service-style1 text-left">
+                            <div class="iq-iconbg">
+                                <img src="images/Go-Logo_Blue.svg" class="img-golang" alt="">
+                            </div>
+                            <div class="iq-image">
+                                <img alt="#" src="images/fancy-pattern.png">
+                            </div>
+                            <div class="iq-content">
+                                <div class="iq-title">
+                                    <h4>Golang</h4>
+                                </div>
+                                <p class="m-0">是一種靜態強型別、編譯型、並發型的程式語言，由 Google 公司主導開發。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeIn">
+                        <div class="iq-service-style1 text-left">
+                            <div class="iq-iconbg">
+                                <img src="images/swagger.svg" class="img-swagger" alt="">
+                            </div>
+                            <div class="iq-image">
+                                <img alt="#" src="images/fancy-pattern.png">
+                            </div>
+                            <div class="iq-content">
+                                <div class="iq-title">
+                                    <h4>Swagger</h4>
+                                </div>
+                                <p class="m-0">REST API 視覺化工具，幫助設計、構建、記錄和使用REST API</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeIn">
+                        <div class="iq-service-style1 white-bg text-left">
+                            <div class="iq-iconbg">
+                                <img src="images/influxdb.svg" class="img-influxdb" alt="">
+                            </div>
+                            <div class="iq-image">
+                                <img alt="#" src="images/fancy-pattern.png">
+                            </div>
+                            <div class="iq-content">
+                                <div class="iq-title">
+                                    <h4>InfluxDB</h4>
+                                </div>
+                                <p class="m-0">高性能地查詢與存儲時序型數據，並廣泛用於儲系統的監控、IoT 等場景。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeIn">
+                        <div class="iq-service-style1 white-bg text-left">
+                            <div class="iq-iconbg">
+                                <img src="images/redis.svg" class="img-redisdb" alt="">
+                            </div>
+                            <div class="iq-image">
+                                <img alt="#" src="images/fancy-pattern.png">
+                            </div>
+                            <div class="iq-content">
+                                <div class="iq-title">
+                                    <h4>RedisDB</h4>
+                                </div>
+                                <p class="m-0">是一種 in-memory、<br>key-value 資料庫，有效解決快取的需求。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Service End -->
+        <!-- Portfolio Start -->
+        <section id="section-2" class="position-relative overview-block-pt iq-pb-40 iq-portfolio-section">
+            <img src="images/fancybox/overlay.png" class="overlay-right-bottom" alt="#">
+            <img src="images/fancybox/overlay-dot.png" class="overlay-right-bottom-2" alt="#">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-md-6 wow fadeIn">
+                        <div class="text-left iq-title-box pr-lg-5">
+                            <h2 class="iq-title text-uppercase">主力產品</h2>
+                            <p class="iq-line two"></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-6 wow fadeIn">
+                        <div class="btn-container">
+                            <a class="iq-button d-inline-block" href="portfolio-details.html"><span>Explore
+                                    More</span><em></em></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-center position-relative">
+                    <div class="col-lg-6 col-md-6 wow fadeIn">
+                        <div class="iq-portfolio iq-mr-15">
+                            <div class="iq-portfolio-img">
+                                <img class="img-fluid img-elastic-search" src="images/elasticsearch.svg" alt="image">
+                            </div>
+                            <div class="portfolio-title">
+                                <h4 class="iq-title"></h4>
+                            </div>
+                            <div class="iq-portfolio-info text-left custom-info">
+                                <h5 class="portfolio-text">
+                                    當前企業中，最受歡迎的搜尋引擎，可以用於搜尋各種文件。它提供可延伸的搜尋，具有接近即時的搜尋效能，可用於半導體、銀行等各種領域。</h5>
+                            </div>
+                            <div class="iq-portfolio-info text-left">
+                                <h4 class="portfolio-text">Elasticsearch</h4>
+                            </div>
+                            <a href="portfolio-details.html">
+                                <div class="iq-portfolio-icon flex">
+                                    <i class="fa fa-arrows-alt"></i>
+                                </div>
+                            </a>
+                            <div class="iq-image">
+                                <img src="images/portfolio/pattern.png" class="img-fluid" alt="#">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 wow fadeIn">
+                        <div class="iq-portfolio iq-ml-15">
+                            <div class="iq-portfolio-img">
+                                <img class="img-fluid img-logstash" src="images/logstash.svg" alt="image">
+                            </div>
+                            <div class="portfolio-title">
+                                <h4 class="iq-title"></h4>
+                            </div>
+                            <div class="iq-portfolio-info text-left custom-info">
+                                <h5 class="portfolio-text">一種輕量型、開放原始碼的伺服器端資料處理管道，可從各種來源收集資料，動態轉換資料，並將其傳送至所需目的地。
+                                    它最常用作開放原始碼分析和搜尋引擎Elasticsearch 的資料管道。</h5>
+                            </div>
+                            <div class="iq-portfolio-info text-left">
+                                <h4 class="portfolio-text">Logstash</h4>
+                            </div>
+                            <div class="iq-portfolio-icon flex">
+                                <a href="portfolio-details.html"><i class="fa fa-arrows-alt"></i></a>
+                            </div>
+                            <div class="iq-image">
+                                <img src="images/portfolio/pattern.png" class="img-fluid" alt="#">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row  text-center position-relative">
+                    <div class="col-lg-6 col-md-6 wow fadeIn">
+                        <div class="iq-portfolio iq-mr-15">
+                            <div class="iq-portfolio-img">
+                                <img class="img-fluid img-kibana" src="images/kibana.svg" alt="image">
+                            </div>
+                            <div class="portfolio-title">
+                                <h4 class="iq-title"></h4>
+                            </div>
+                            <div class="iq-portfolio-info text-left custom-info">
+                                <h5 class="portfolio-text">
+                                    一種資料視覺化和探索工具，用於日誌和時間序列分析、應用程式監控和操作智慧使用案例。它提供了强大且易於使用的功能，如長條圖、折線圖、圓餅圖、熱度圖和內建地理空間支援。
+                                </h5>
+                            </div>
+                            <div class="iq-portfolio-info text-left">
+                                <h4 class="portfolio-text">Kibana</h4>
+                            </div>
+                            <div class="iq-portfolio-icon flex">
+                                <a href="portfolio-details.html"><i class="fa fa-arrows-alt"></i></a>
+                            </div>
+                            <div class="iq-image">
+                                <img src="images/portfolio/pattern.png" class="img-fluid" alt="#">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 wow fadeIn">
+                        <div class="iq-portfolio iq-ml-15">
+                            <div id="custom-padding" class="iq-portfolio-img">
+                                <img class="img-fluid img-docker" src="images/docker.svg" alt="image">
+                            </div>
+                            <div class="portfolio-title">
+                                <h4 class="iq-title"></h4>
+                            </div>
+                            <div class="iq-portfolio-info text-left custom-info">
+                                <h5 class="portfolio-text">
+                                    可快速地建立、測試和部署應用程式。將軟體封裝到名為容器的標準化單位，其中包含程式庫、系統工具、程式碼和執行時間等執行軟體所需的所有項目。</h5>
+                            </div>
+                            <div class="iq-portfolio-info text-left">
+                                <h4 class="portfolio-text">Docker</h4>
+                            </div>
+                            <div class="iq-portfolio-icon flex">
+                                <a href="portfolio-details.html"><i class="fa fa-arrows-alt"></i></a>
+                            </div>
+                            <div class="iq-image">
+                                <img src="images/portfolio/pattern.png" class="img-fluid" alt="#">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Portfolio End -->
+        <!-- Counter Start -->
+        <div class="iq-counter-block position-relative">
+            <img src="images/fancybox/overlay-dot2.png" class="overlay-right-top-2" alt="#">
+            <div class="auto-container">
+                <div class="inner-container">
+                    <div class="iq-pattern-style"></div>
+                    <div class="row">
+                        
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="iq-counter  iq-counter-style-1">
+                                <div class="counter-content">
+                                    <p class="iq-counter-info">
+                                        <span class="timer" data-to="11" data-speed="5000">11</span>
+                                        <span class="counter-after-content"></span>
+                                        <span class="counter-symbol"></span>
+                                    </p>
+                                    <p class="counter-content-text">人團隊</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="iq-counter  iq-counter-style-1">
+                                <div class="counter-content">
+                                    <p class="iq-counter-info">
+                                        <span class="timer" data-to="7" data-speed="5000">7</span>
+                                        <span class="counter-after-content"></span>
+                                        <span class="counter-symbol"></span>
+                                    </p>
+                                    <p class="counter-content-text">項專案</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="iq-counter  iq-counter-style-1">
+                                <div class="counter-content">
+                                    <p class="iq-counter-info">
+                                        <span class="timer" data-to="92" data-speed="5000">92</span>
+                                        <span class="counter-after-content">%</span>
+                                        <span class="counter-symbol"></span>
+                                    </p>
+                                    <p class="counter-content-text">完成</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="iq-counter  iq-counter-style-1">
+                                <div class="counter-content">
+                                    <p class="iq-counter-info">
+                                        <span class="timer" data-to="4380" data-speed="5000">4380</span>
+                                        <span class="counter-after-content">+</span>
+                                        <span class="counter-symbol"></span>
+                                    </p>
+                                    <p class="counter-content-text">小時經驗</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="images/fancybox/overlay.png" class="overlay-left-bottom" alt="#">
+        </div>
+        <!-- Counter End -->
+        <!-- Team Start -->
+        <section id="section-3" class="overview-block-ptb">
+            <img src="images/fancybox/overlay-dot2.png" class="overlay-right-top-2" alt="#">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-md-6">
+                        <div class="text-left iq-title-box pr-lg-5">
+                            <h2 class="iq-title text-uppercase">開發團隊</h2>
+                            <p class="iq-line three"></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-6">
+                        <div class="btn-container">
+                            <a class="iq-button d-inline-block" href="our-team.html"><span>Explore
+                                    More</span><em></em></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-sm-center">
+                    <div class="col-sm-12">
+                        <div class="owl-carousel" data-autoplay="true" data-loop="true" data-nav="false"
+                            data-dots="true" data-items="3" data-items-laptop="3" data-items-tab="2"
+                            data-items-mobile="1" data-items-mobile-sm="1" data-margin="30">
+                            <div class="item">
+                                <div class="iq-team-blog text-left">
+                                    <div class="iq-team">
+                                        <div class="iq-team-img">
+                                            <img class="img-fluid" src="images/team-members/Olga_DV101_480x480.png" alt="image">
+                                        </div>
+                                        <div class="iq-team-social">
+                                            <ul>
+                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-google"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="iq-team-info text-left">
+                                            <h4 class="member-text">Olga</h4>
+                                        </div>
+                                        <div class="iq-image">
+                                            <img src="images/team/team-hover-pattern.png" class="img-fluid" alt="#">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="iq-team-blog text-left">
+                                    <div class="iq-team">
+                                        <div class="iq-team-img">
+                                            <img class="img-fluid" src="images/team-members/Jessie_DV101.png" alt="image">
+                                        </div>
+                                        <div class="iq-team-social">
+                                            <ul>
+                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-google"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="iq-team-info text-left">
+                                            <h4 class="member-text">Jessie</h4>
+                                        </div>
+                                        <div class="iq-image">
+                                            <img src="images/team/team-hover-pattern.png" class="img-fluid" alt="#">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="iq-team-blog text-left">
+                                    <div class="iq-team">
+                                        <div class="iq-team-img">
+                                            <img class="img-fluid" src="images/team-members/YORI_DV101_480x480.png" alt="image">
+                                        </div>
+                                        <div class="iq-team-social">
+                                            <ul>
+                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-google"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="iq-team-info text-left">
+                                            <h4 class="member-text">Yori</h4>
+                                        </div>
+                                        <div class="iq-image">
+                                            <img src="images/team/team-hover-pattern.png" class="img-fluid" alt="#">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="iq-team-blog text-left">
+                                    <div class="iq-team">
+                                        <div class="iq-team-img">
+                                            <img class="img-fluid" src="images/team-members/Lavender黃鈺凱_DV101.png" alt="image">
+                                        </div>
+                                        <div class="iq-team-social">
+                                            <ul>
+                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-google"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="iq-team-info text-left">
+                                            <h4 class="member-text">Lavender</h4>
+                                        </div>
+                                        <div class="iq-image">
+                                            <img src="images/team/team-hover-pattern.png" class="img-fluid" alt="#">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="iq-team-blog text-left">
+                                    <div class="iq-team">
+                                        <div class="iq-team-img">
+                                            <img class="img-fluid" src="images/team-members/Zoe_DV101_480x480.png" alt="image">
+                                        </div>
+                                        <div class="iq-team-social">
+                                            <ul>
+                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-google"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="iq-team-info text-left">
+                                            <h4 class="member-text">Zoe</h4>
+                                        </div>
+                                        <div class="iq-image">
+                                            <img src="images/team/team-hover-pattern.png" class="img-fluid" alt="#">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="iq-team-blog text-left">
+                                    <div class="iq-team">
+                                        <div class="iq-team-img">
+                                            <img class="img-fluid" src="images/team-members/Junjun李俊儒_DV101_480x480.jpg" alt="image">
+                                        </div>
+                                        <div class="iq-team-social">
+                                            <ul>
+                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-google"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="iq-team-info text-left">
+                                            <h4 class="member-text">Junjun</h4>
+                                        </div>
+                                        <div class="iq-image">
+                                            <img src="images/team/team-hover-pattern.png" class="img-fluid" alt="#">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="iq-team-blog text-left">
+                                    <div class="iq-team">
+                                        <div class="iq-team-img">
+                                            <img class="img-fluid" src="images/team-members/杜京華Fafa_DV101.jpg" alt="image">
+                                        </div>
+                                        <div class="iq-team-social">
+                                            <ul>
+                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-google"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="iq-team-info text-left">
+                                            <h4 class="member-text">Fafa</h4>
+                                        </div>
+                                        <div class="iq-image">
+                                            <img src="images/team/team-hover-pattern.png" class="img-fluid" alt="#">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="iq-team-blog text-left">
+                                    <div class="iq-team">
+                                        <div class="iq-team-img">
+                                            <img class="img-fluid" src="images/team-members/何方媃 Lily.jpg" alt="image">
+                                        </div>
+                                        <div class="iq-team-social">
+                                            <ul>
+                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-google"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="iq-team-info text-left">
+                                            <h4 class="member-text">Lily</h4>
+                                        </div>
+                                        <div class="iq-image">
+                                            <img src="images/team/team-hover-pattern.png" class="img-fluid" alt="#">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="iq-team-blog text-left">
+                                    <div class="iq-team">
+                                        <div class="iq-team-img">
+                                            <img class="img-fluid" src="images/team-members/陳姸希Gina.png" alt="image">
+                                        </div>
+                                        <div class="iq-team-social">
+                                            <ul>
+                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-google"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="iq-team-info text-left">
+                                            <h4 class="member-text">Gina</h4>
+                                        </div>
+                                        <div class="iq-image">
+                                            <img src="images/team/team-hover-pattern.png" class="img-fluid" alt="#">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="iq-team-blog text-left">
+                                    <div class="iq-team">
+                                        <div class="iq-team-img">
+                                            <img class="img-fluid" src="images/team-members/謝耀緯jason.jpg" alt="image">
+                                        </div>
+                                        <div class="iq-team-social">
+                                            <ul>
+                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-google"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="iq-team-info text-left">
+                                            <h4 class="member-text">Jason</h4>
+                                        </div>
+                                        <div class="iq-image">
+                                            <img src="images/team/team-hover-pattern.png" class="img-fluid" alt="#">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="iq-team-blog text-left">
+                                    <div class="iq-team">
+                                        <div class="iq-team-img">
+                                            <img class="img-fluid" src="images/team-members/Jeffrey_FN101.jpg" alt="image">
+                                        </div>
+                                        <div class="iq-team-social">
+                                            <ul>
+                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-google"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="iq-team-info text-left">
+                                            <h4 class="member-text">Jeffrey</h4>
+                                        </div>
+                                        <div class="iq-image">
+                                            <img src="images/team/team-hover-pattern.png" class="img-fluid" alt="#">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="images/fancybox/overlay.png" class="overlay-left-bottom" alt="#">
+        </section>
+        <!-- Team End -->
+        <!-- Testimonial Start -->
+        <section id="section-4" class="light-orange-bg overview-block-pt iq-pb-70">
+            <img src="images/fancybox/overlay.png" class="overlay-right-top" alt="#">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-md-6">
+                        <div class="text-left iq-title-box pr-lg-5 mb-3">
+                            <h2 class="iq-title text-uppercase">近期活動</h2>
+                            <p class="iq-line four"></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-6">
+                        <div class="text-left">
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-sm-center">
+                    <div class="col-sm-12">
+                        <div class="owl-carousel" data-autoplay="true" data-loop="true" data-nav="true"
+                            data-dots="false" data-items="2" data-items-laptop="2" data-items-tab="1"
+                            data-items-mobile="1" data-items-mobile-sm="1" data-margin="30">
+                            <div class="item">
+                                <div class="iq-testimonial position-relative">
+                                    <span class="iq-border"></span>
+                                    <div class="testimonial-info ">
+                                        <div class="testimonial-name align-self-center">
+                                            <h5>2022年數位轉型應用暨技術愛好者研討會</h5>
+                                        </div>
+                                    </div>
+                                    <div class="iq-icon">
+                                        <i class="fa fa-quote-right" aria-hidden="true"></i>
+                                    </div>
+                                    <span>日期：2022/5/27(五)</span>
+                                    <p>地點：文大大夏館國際會議中心(台北市大安區建國南路二段231號B1)</p>
+                                    <span>報名：</span>
+                                    <a href="https://www.accupass.com/event/2205160717045215790280"
+                                        target="_blank">連結</a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="iq-testimonial position-relative">
+                                    <span class="iq-border"></span>
+                                    <div class="testimonial-info ">
+                                        <div class="testimonial-name align-self-center">
+                                            <h5>2022年數位轉型應用暨技術愛好者研討會</h5>
+                                        </div>
+                                    </div>
+                                    <div class="iq-icon">
+                                        <i class="fa fa-quote-right" aria-hidden="true"></i>
+                                    </div>
+                                    <span>日期：2022/5/27(五)</span>
+                                    <p>地點：文大大夏館國際會議中心(台北市大安區建國南路二段231號B1)</p>
+                                    <span>報名：</span>
+                                    <a href="https://www.accupass.com/event/2205160717045215790280"
+                                        target="_blank">連結</a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="iq-testimonial position-relative">
+                                    <span class="iq-border"></span>
+                                    <div class="testimonial-info ">
+                                        <div class="testimonial-name align-self-center">
+                                            <h5>2022年數位轉型應用暨技術愛好者研討會</h5>
+                                        </div>
+                                    </div>
+                                    <div class="iq-icon">
+                                        <i class="fa fa-quote-right" aria-hidden="true"></i>
+                                    </div>
+                                    <span>日期：2022/5/27(五)</span>
+                                    <p>地點：文大大夏館國際會議中心(台北市大安區建國南路二段231號B1)</p>
+                                    <span>報名：</span>
+                                    <a href="https://www.accupass.com/event/2205160717045215790280"
+                                        target="_blank">連結</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="images/fancybox/overlay-dot.png" class="overlay-left-bottom-2" alt="#">
+        </section>
+    </div>
+    <!-- Main Content End -->
+    <!-- Footer Start -->
+    <footer>
+        <img src="images/footer-pattern.png" class="img-fluid footer-pattern" alt="#">
+        <div class="footer-topbar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 ">
+                        <div class="widget mb-0">
+                            <div class="textwidget">
+                                <div class="row ">
+                                    <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                                        <ul class="info-share social-icone d-inline list-inline">
+                                            <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a>
+                                            </li>
+                                            <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a>
+                                            </li>
+                                            <li class="list-inline-item"><a href="#"><i
+                                                        class="fa fa-google-plus"></i></a></li>
+                                            <li class="list-inline-item"><a href="#"><i class="fa fa-instagram"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div
+                                        class="col-lg-4 col-md-12  mb-4 mb-lg-0 text-lg-center text-lg-left align-self-center">
+                                        <h4 class="text-white subscribe-title">訂閱電子報</h4>
+                                    </div>
+                                    <div class="col-lg-4   text-center text-lg-right">
+                                        <form class="mc4wp-form mc4wp-form-517" method="post">
+                                            <div class="mc4wp-form-fields">
+                                                <input type="email" name="EMAIL" placeholder="您的郵箱" required="">
+                                                <input type="submit" value="訂閱">
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row copyright-row">
+                <p class="copyright">Copyrights 2020 ©<span class="main-color">ITOps</span></p>
+                <!-- <div class="col-lg-4 col-md-6 col-sm-12 pr-lg-5">
+                  <div class="widget">
+                     <img src="images/logo.png" class="footer-logo" alt="#">
+                     <p class=" mt-4 mr-lg-4">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                     <p class="mt-5 mb-0">Copyrights 2020 ©<span class="main-color">iqonic.design</span></p>
+                  </div>
+               </div> -->
+                <!-- <div class="col-lg-2 col-md-6">
+                  <div class="widget">
+                     <h4 class="footer-title">Useful links</h4>
+                     <div class="menu-link">
+                        <ul id="menu-link-menu" class="menu">
+                           <li> <a href="index.html">Home</a></li>
+                           <li><a href="aboutus.html">About Us</a></li>
+                           <li><a href="faq.html">FAQ</a></li>
+                           <li><a href="clients.html">Clients</a></li>
+                           <li><a href="contact-us-1.html">Contact Us</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-md-6">
+                  <div class="widget">
+                     <h4 class="footer-title ">Contact Us</h4>
+                     <div class="row">
+                        <div class="col-sm-12">
+                           <ul class="iq-contact">
+                              <li>
+                                 <a><i class="fa fa-home" aria-hidden="true"></i><span>1234 North Avenue Luke Lane, South Bend, IN 360001</span></a>
+                              </li>
+                              <li>
+                                 <a href="mailto:support@themes.com"><i class="fa fa-envelope" aria-hidden="true"></i><span>support@themes.com</span></a>
+                              </li>
+                              <li>
+                                 <a href="tel:+0123456789"><i class="fa fa-phone" aria-hidden="true"></i><span>+0123456789</span></a>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-md-6 col-sm-12">
+                  <h4 class="mb-4">Instagram</h4>
+                  <div class="instagram-box">
+                     <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4">
+                           <div class="iq-instagram position-relative">
+                              <img class="w-100" src="images/instagram/instagram-img1.png" alt="#">
+                              <a href="#"><i class="fa fa-instagram text-white" aria-hidden="true"></i></a>
+                           </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4">
+                           <div class="iq-instagram position-relative">
+                              <img class="w-100"  src="images/instagram/instagram-img2.png" alt="#">
+                              <a href="#"><i class="fa fa-instagram text-white" aria-hidden="true"></i></a>
+                           </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4">
+                           <div class="iq-instagram position-relative">
+                              <img class="w-100"  src="images/instagram/instagram-img3.png" alt="#">
+                              <a href="#"><i class="fa fa-instagram text-white" aria-hidden="true"></i></a>
+                           </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4">
+                           <div class="iq-instagram position-relative">
+                              <img class="w-100"  src="images/instagram/instagram-img4.png" alt="#">
+                              <a href="#"><i class="fa fa-instagram text-white" aria-hidden="true"></i></a>
+                           </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4">
+                           <div class="iq-instagram position-relative">
+                              <img class="w-100"  src="images/instagram/instagram-img5.png" alt="#">
+                              <a href="#"><i class="fa fa-instagram text-white" aria-hidden="true"></i></a>
+                           </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4">
+                           <div class="iq-instagram position-relative">
+                              <img class="w-100"  src="images/instagram/instagram-img6.png" alt="#">
+                              <a href="#"><i class="fa fa-instagram text-white" aria-hidden="true"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div> -->
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+    <!-- === back-to-top === -->
+    <div id="back-to-top">
+        <a class="top" id="top" href="#top"> <i class="ion-ios-arrow-up"></i> </a>
+    </div>
+    <!-- === back-to-top End === -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.4.1.js"></script>
+    <!-- jQuery  for scroll me js -->
+    <script src='js/jquery-min.js'></script>
+    <!-- popper  -->
+    <script src="js/popper.min.js"></script>
+    <!--  bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Appear JavaScript -->
+    <script src="js/appear.js"></script>
+    <!-- Jquery-migrate JavaScript -->
+    <script src='js/jquery-migrate.min.js'></script>
+    <!-- countdownTimer JavaScript -->
+    <script src='js/jQuery.countdownTimer.min.js'></script>
+    <!-- Owl.carousel JavaScript -->
+    <script src='js/owl.carousel.min.js'></script>
+    <!-- Countdown JavaScript -->
+    <script src='js/countdown.js'></script>
+    <!-- Jquery.countTo JavaScript -->
+    <script src='js/jquery.countTo.js'></script>
+    <!-- Magnific-popup JavaScript -->
+    <script src='js/jquery.magnific-popup.min.js'></script>
+    <!-- Wow JavaScript -->
+    <script src='js/wow.min.js'></script>
+    <!--  Custom JavaScript -->
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
