@@ -4,6 +4,10 @@
     align-items: center;
 }
 
+.navbar-nav {
+    justify-content: center;
+}
+
 .banner-container {
     padding: 0 4em;
 }
